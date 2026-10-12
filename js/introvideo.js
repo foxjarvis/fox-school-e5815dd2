@@ -17,7 +17,7 @@
 
   // VIS[id](at, D) returns the inside of the 960x540 picture. at(k) = seconds when sentence k starts.
   const VIS={
-    welcome:(at)=>foxAt(50,70,280,"happy",0.2)+tx(640,150,"Trader Fox's Trading School",42,INK,0.4)+tx(640,196,"learn trading from zero",28,Y,0.7)+tx(640,232,"with Mrs. Francis, Trader Fox's partner",24,INK,at(0)+1.6)+
+    welcome:(at)=>foxAt(50,70,280,"happy",0.2)+tx(640,150,"Trader Fox's Trading School",42,INK,0.4)+tx(640,196,"the market is the new plug",28,Y,0.7)+tx(640,232,"with Mrs. Francis, Trader Fox's partner",24,INK,at(0)+1.6)+
       [["What trading is",G],["How prices move",B],["Reading a chart",P],["Risk, the real game",Y]].map((c,i)=>pill(450,262+i*56,380,44,c[0],c[1],at(1)+i*.7)).join("")+
       tx(640,505,"No confusing words. No hype. No promises.",26,MUT,at(2)),
 
