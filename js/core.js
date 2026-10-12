@@ -65,7 +65,7 @@ function home(){
   $("#app").innerHTML=`
   <section class="hero">
     <div class="mascot">${fox("happy")}</div>
-    <h1>The market is the new <em>plug</em></h1>
+    <h1>Learn trading from <em>zero</em></h1>
     <p class="lead">Plain English from the very first step, then as deep as you want: the Nasdaq, candles, liquidity, risk, real strategies and the mind games. Honest about what works and what does not.</p>
     <div><a class="btn" href="#/ch/${next.id}">${done?"Keep going":"Start lesson 1"}</a> <a class="btn alt" href="#/practice">Try the practice game</a></div>
     <div class="pillrow"><span class="pill">${CH.length} lessons</span><span class="pill">Real-chart practice</span><span class="pill">Interactive tools</span><span class="pill">Quizzes</span><span class="pill">Free glossary</span><span class="pill">No signup</span></div>
